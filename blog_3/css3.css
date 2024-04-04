@@ -1,0 +1,98 @@
+#navindex {
+    display:flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 35%;
+    margin-left: 28%;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #FFCFA3;
+    top: 0%;
+    left: 0%;
+    margin: 0px;
+    padding: 50px;
+
+}
+
+#flag {
+    top: 2%;
+    left: 1%;
+    position:fixed;
+}
+
+main {
+margin-top: 150px;
+}
+
+#cities {
+    text-align:center;
+}
+
+h2 {
+    text-align:center;
+    font-size: xx-large;
+}
+
+#mallorca{
+    display: flex;
+    flex-basis: auto;
+    margin-left: 20%;
+}
+
+p{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -.15%;
+    margin-bottom: -.15%;
+    font-size:xx-large;
+    text-align: center;
+    background-color: #FFD990;
+    padding: 2%;
+}
+
+
+#mallorcatips{
+    text-align: center;
+    margin-left: 5%;
+    
+ }
+
+#pica{
+    margin-right: 20%;
+}
+
+#santa{
+    margin-left: 5%;
+}
+
+#otherbeaches {
+    text-align: center;
+    margin-left: 5%;
+}
+
+#ponca{
+    margin-right: 20%;
+}
+
+#marga{
+    margin-left: 5%;
+}
+
+#beaches{
+    display: flex;
+    flex-basis: auto; 
+}
+
+#visits{
+    display: flex;
+    flex-basis: auto; 
+}
+
+h3{
+    margin-left: 27%;
+    text-align: center;
+}

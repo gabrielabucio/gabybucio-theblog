@@ -1,0 +1,111 @@
+#navindex {
+    display:flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 35%;
+    margin-left: 28%;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #FFCFA3;
+    top: 0%;
+    left: 0%;
+    margin: 0px;
+    padding: 50px;
+
+}
+
+#flag {
+    top: 2%;
+    left: 1%;
+    position:fixed;
+}
+
+main {
+margin-top: 150px;
+}
+
+#cities {
+    text-align:center;
+}
+
+#opening {
+    display: flex;
+    flex-basis: auto;
+    margin-left: 5%;
+}
+
+h2 {
+    margin-left: 12%;
+}
+
+p{
+    margin-left: 2%;
+    margin-top: -.15%;
+    margin-bottom: -.15%;
+    font-size:xx-large;
+    background-color:#FFD990;
+    padding: 2%;
+    text-align: center;
+}
+
+#name{
+    background-color:#FFD990;
+    display:inline;
+    padding: 1%;
+}
+
+#images{
+    display: flex;
+    flex-basis: auto;
+    margin-left: 12%;
+}
+
+#barcelona{
+    margin-left: 8%;
+}
+
+#mallorca{
+    margin-left: 8%;
+}
+
+#places{
+    display: flex;
+    flex-basis: auto;
+}
+
+h3{
+    margin-left: 20%;
+}
+
+#homes{
+    display: flex;
+    flex-basis: auto;
+    margin-left: 10%;
+    margin-right: 20%;
+    padding-right: 4%;
+    
+}
+
+#Madrid{
+    width: 80%;
+    padding-right: 5%;
+}
+
+#Barcelona{
+    width: 80%;
+    padding-right: 5%;
+}
+
+#Mallorca{
+    width: 80%;
+}
+
+
+
+
+
+
