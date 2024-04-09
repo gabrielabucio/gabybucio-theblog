@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Metamorphous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Metamorphous&family=Sancreek&display=swap');
+
 #navindex {
     display:flex; 
     flex-direction: row;
@@ -5,6 +10,7 @@
     justify-content: space-between;
     width: 35%;
     margin-left: 28%;
+    font-family: "Sancreek";
 }
 
 nav {
@@ -15,7 +21,14 @@ nav {
     left: 0%;
     margin: 0px;
     padding: 50px;
+}
 
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:black;
 }
 
 #flag {
@@ -24,12 +37,18 @@ nav {
     position:fixed;
 }
 
+body{
+    cursor: url("img/plane1.png"),auto;
+}
+
 main {
 margin-top: 150px;
 }
 
 #cities {
     text-align:center;
+    font-size: x-large;
+    font-family: "Metamorphous";
 }
 
 #opening {
@@ -40,6 +59,11 @@ margin-top: 150px;
 
 h2 {
     margin-left: 12%;
+    font-family: "Metamorphous";
+}
+
+#blogger {
+    margin-left: -40px;
 }
 
 p{
@@ -50,58 +74,56 @@ p{
     background-color:#FFD990;
     padding: 2%;
     text-align: center;
+    font-family: "Laila";
+}
+
+#background{ 
+    width: 70%;
 }
 
 #name{
-    background-color:#FFD990;
     display:inline;
     padding: 1%;
+    margin-left: 10%;
 }
 
 #images{
     display: flex;
     flex-basis: auto;
     margin-left: 12%;
+    width: 80%;
+}
+
+#madrid{
+    width: 20%;
 }
 
 #barcelona{
-    margin-left: 8%;
+    width: 20%;
+    margin-left: 15%;
 }
 
 #mallorca{
-    margin-left: 8%;
+    width: 20%;
+    margin-left: 15%;
 }
 
-#places{
-    display: flex;
-    flex-basis: auto;
-}
 
 h3{
-    margin-left: 20%;
-}
-
-#homes{
-    display: flex;
-    flex-basis: auto;
-    margin-left: 10%;
-    margin-right: 20%;
-    padding-right: 4%;
-    
+   text-align: center; 
+   font-family: "Sancreek";
 }
 
 #Madrid{
-    width: 80%;
-    padding-right: 5%;
+    
 }
 
 #Barcelona{
-    width: 80%;
-    padding-right: 5%;
+   
 }
 
 #Mallorca{
-    width: 80%;
+    
 }
 
 
